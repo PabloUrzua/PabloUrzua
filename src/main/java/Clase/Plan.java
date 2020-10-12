@@ -5,12 +5,16 @@ public class Plan {
     private int Farenheith;
     private int Revival;
     private int Alquimista;
+    private int Elpoder;
+    private int Despertar;
 
     public Plan()
     {
-        Farenheith = 5000;
-        Revival = 12000;
+        Farenheith = 7000;
+        Revival = 22000;
         Alquimista = 45000;
+        Elpoder = 88000;
+        Despertar = 156000;
 
     }
 
@@ -19,5 +23,9 @@ public class Plan {
     public int getRevival() {return Revival;}
 
     public int getAlquimista() {return Alquimista;}
+
+    public int getElpoder() {return Elpoder;}
+
+    public int getDespertar() {return Despertar;}
 
 }

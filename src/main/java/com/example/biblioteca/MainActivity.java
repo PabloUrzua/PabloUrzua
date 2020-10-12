@@ -79,6 +79,8 @@ public class MainActivity extends AppCompatActivity {
         libros.add("Farenheith");
         libros.add("Revival");
         libros.add("Alquimista");
+        libros.add("Elpoder");
+        libros.add("Despertar");
 
 
         Intent i = new Intent(this, GitHub_act.class);

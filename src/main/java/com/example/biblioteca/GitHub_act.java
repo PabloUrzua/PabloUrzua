@@ -37,6 +37,8 @@ public class GitHub_act extends AppCompatActivity {
         int resultFarenheith = plan.getFarenheith();
         int resulRevival = plan.getRevival();
         int resultAlquimista = plan.getAlquimista();
+        int resultElpoder = plan.getElpoder();
+        int resultDespertar = plan.getDespertar();
 
         if(Libros.equals("Farenheith"))
         {
@@ -49,6 +51,14 @@ public class GitHub_act extends AppCompatActivity {
         if(Libros.equals("Alquimista"))
         {
             text.setText("El Valor Del Libro Alquimista es: "+ resultAlquimista);
+        }
+        if(Libros.equals("El Poder"))
+        {
+            text.setText("El Valor Del Libro El Poder es: "+ resultElpoder);
+        }
+        if(Libros.equals("Despertar"))
+        {
+            text.setText("El Valor Del Libro Despertar es: "+ resultDespertar);
         }
     }
 }
